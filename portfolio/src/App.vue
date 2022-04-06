@@ -1,30 +1,20 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About Me</router-link> |
+    <router-link to="/experience">Experience</router-link>
   </nav>
   <router-view/>
+
+  <nav>
+    <img src="../src/assets/img/github.png" alt="GitHub logo" class="icon">
+    <a href="https://github.com/janiturpeinen/">GitHub</a>
+
+    <img src="../src/assets/img/linkedin.png" alt="LinkedIn logo" class="icon">
+    <a href="https://www.linkedin.com/in/jani-turpeinen-0bb533136/">LinkedIn</a>
+  </nav>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+@import "assets/styles/App.css";
 </style>
