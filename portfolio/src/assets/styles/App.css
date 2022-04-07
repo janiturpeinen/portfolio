@@ -29,3 +29,11 @@ nav a.router-link-exact-active {
     border-radius: 50%;
     max-width: 25px;
 }
+
+.socials {
+    padding: 5px;
+}
+
+#siteUpdated {
+    padding: 5px;
+}

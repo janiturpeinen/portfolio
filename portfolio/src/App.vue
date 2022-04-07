@@ -9,10 +9,11 @@
 
   <nav>
     <img src="../src/assets/img/github.png" alt="GitHub logo" class="icon">
-    <a href="https://github.com/janiturpeinen/">GitHub</a>
+    <a class="socials" href="https://github.com/janiturpeinen/"> GitHub </a>
 
     <img src="../src/assets/img/linkedin.png" alt="LinkedIn logo" class="icon">
-    <a href="https://www.linkedin.com/in/jani-turpeinen-0bb533136/">LinkedIn</a>
+    <a class="socials" href="https://www.linkedin.com/in/jani-turpeinen-0bb533136/"> LinkedIn </a>
+    <div id="siteUpdated">Site last updated: 4/2022</div>
   </nav>
 </template>
 
