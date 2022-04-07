@@ -10,7 +10,7 @@
       </p>
       <p>
         I am currently looking for a job in my field. Preferably one where I can do my on-the-job learning. You can see my work and school experience on the
-        <router-link to="/experience">experience</router-link> page.
+        <router-link to="/experience" style="color: azure">experience</router-link> page.
       </p>
       <p>
         My hobbies are playing video games, airsoft and playing drums. I've been playing video games since I was about 6 years old.

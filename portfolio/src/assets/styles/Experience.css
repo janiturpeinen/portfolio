@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
