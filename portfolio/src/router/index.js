@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutMeView from '../views/AboutMeView'
 import ExperienceView from '@/views/ExperienceView'
 import ContactView from '@/views/ContactView'
+import MouseGameView from '@/views/MouseGameView'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: ContactView
+  },
+  {
+    path: '/mouse',
+    name: 'mouse',
+    component: MouseGameView
   }
 ]
 
